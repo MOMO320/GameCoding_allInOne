@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectOriented", "ObjectOriented\ObjectOriented.vcxproj", "{D83A7EC3-862A-46CA-91B4-D1F134B7197E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_1ObjectOriented", "ObjectOriented\ObjectOriented.vcxproj", "{D83A7EC3-862A-46CA-91B4-D1F134B7197E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_2Inheritance", "..\Inheritance\Inheritance.vcxproj", "{905924E7-03A2-47D0-B134-10CB77195760}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_3InformationHiding", "4_3InformationHiding\4_3InformationHiding.vcxproj", "{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{D83A7EC3-862A-46CA-91B4-D1F134B7197E}.Release|x64.Build.0 = Release|x64
 		{D83A7EC3-862A-46CA-91B4-D1F134B7197E}.Release|x86.ActiveCfg = Release|Win32
 		{D83A7EC3-862A-46CA-91B4-D1F134B7197E}.Release|x86.Build.0 = Release|Win32
+		{905924E7-03A2-47D0-B134-10CB77195760}.Debug|x64.ActiveCfg = Debug|x64
+		{905924E7-03A2-47D0-B134-10CB77195760}.Debug|x64.Build.0 = Debug|x64
+		{905924E7-03A2-47D0-B134-10CB77195760}.Debug|x86.ActiveCfg = Debug|Win32
+		{905924E7-03A2-47D0-B134-10CB77195760}.Debug|x86.Build.0 = Debug|Win32
+		{905924E7-03A2-47D0-B134-10CB77195760}.Release|x64.ActiveCfg = Release|x64
+		{905924E7-03A2-47D0-B134-10CB77195760}.Release|x64.Build.0 = Release|x64
+		{905924E7-03A2-47D0-B134-10CB77195760}.Release|x86.ActiveCfg = Release|Win32
+		{905924E7-03A2-47D0-B134-10CB77195760}.Release|x86.Build.0 = Release|Win32
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Debug|x64.ActiveCfg = Debug|x64
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Debug|x64.Build.0 = Debug|x64
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Debug|x86.Build.0 = Debug|Win32
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Release|x64.ActiveCfg = Release|x64
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Release|x64.Build.0 = Release|x64
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Release|x86.ActiveCfg = Release|Win32
+		{C7D4004E-731D-426D-9EA3-7B194DA1EDDC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
