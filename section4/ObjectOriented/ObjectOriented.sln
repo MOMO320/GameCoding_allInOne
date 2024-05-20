@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_4Polymorphism", "4_4Polym
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_5Initialize", "4_5Initialize\4_5Initialize.vcxproj", "{AD3FA49A-D3C2-4D18-B656-3615EEA81290}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_6OperatorOverloading", "4_6Operator Overloading\4_6Operator Overloading.vcxproj", "{62398B9B-3890-4701-8AE7-B8C6632EFE3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{AD3FA49A-D3C2-4D18-B656-3615EEA81290}.Release|x64.Build.0 = Release|x64
 		{AD3FA49A-D3C2-4D18-B656-3615EEA81290}.Release|x86.ActiveCfg = Release|Win32
 		{AD3FA49A-D3C2-4D18-B656-3615EEA81290}.Release|x86.Build.0 = Release|Win32
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Debug|x64.ActiveCfg = Debug|x64
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Debug|x64.Build.0 = Debug|x64
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Debug|x86.Build.0 = Debug|Win32
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Release|x64.ActiveCfg = Release|x64
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Release|x64.Build.0 = Release|x64
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Release|x86.ActiveCfg = Release|Win32
+		{62398B9B-3890-4701-8AE7-B8C6632EFE3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
