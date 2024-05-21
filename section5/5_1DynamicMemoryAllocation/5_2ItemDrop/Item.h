@@ -6,7 +6,6 @@
 
 enum ItemRarity
 {
-	IR_None,
 	IR_Normal,
 	IR_Rare,
 	IR_Unique
@@ -28,7 +27,7 @@ public:
 protected:
 	int _itemId = 0;
 	int _itemCount = 0;
-	ItemRarity _rarity = IR_None;
+	ItemRarity _rarity = IR_Normal;
 };
 
 // ********************** 
