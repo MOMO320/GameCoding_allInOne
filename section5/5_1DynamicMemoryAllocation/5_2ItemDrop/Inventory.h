@@ -17,7 +17,11 @@ public:
 
 	Item* GetItemAtSlot(int slot);
 
+	void Clear();
+
 	static Inventory* GetInstance();
+
+	int GetInventoryItemCount() { return _itemCount; }
 
 private:
 	int FindEmptySlot();

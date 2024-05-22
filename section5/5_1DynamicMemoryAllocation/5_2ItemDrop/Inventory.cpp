@@ -52,6 +52,18 @@ Item* Inventory::GetItemAtSlot(int slot)
 	return _items[slot];
 }
 
+void Inventory::Clear()
+{
+	for (int i = 0; i < MAX_SLOT; i++)
+	{
+		if (_items[i])
+		{
+			delete _items[i];
+			_items[i] = nullptr;
+		}
+	}
+}
+
 Inventory* Inventory::GetInstance()
 {
 	if (s_instance == nullptr)
