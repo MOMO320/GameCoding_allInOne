@@ -4,7 +4,25 @@ using namespace std;
 // ********************** 
 //         Item 
 // ********************** 
-Item::Item()
+//Item::Item()
+//{
+//	int randValue = rand() % 100;
+//
+//	if (randValue < 50)
+//	{
+//		_rarity = IR_Normal;
+//	}
+//	else if (randValue < 80)
+//	{
+//		_rarity = IR_Rare;
+//	}
+//	else
+//	{
+//		_rarity = IR_Unique;
+//	}
+//}
+
+Item::Item(ItemType itemType) : _itemType(itemType)
 {
 	int randValue = rand() % 100;
 
@@ -46,7 +64,7 @@ void Item::PrintInfo()
 // ********************** 
 //         Weapon
 // ********************** 
-Weapon::Weapon()
+Weapon::Weapon() : Item(IT_Weapon) // 기본생성자가 없기 때문에 기타 생성자를 불러오도록 처리
 {
 	switch (_rarity)
 	{
@@ -78,7 +96,7 @@ void Weapon::PrintInfo()
 // ********************** 
 //         Armor 
 // ********************** 
-Armor::Armor()
+Armor::Armor() : Item(IT_Armor)	// 기본생성자가 없기 때문에 기타 생성자를 불러오도록 처리
 {
 	switch (_rarity)
 	{
