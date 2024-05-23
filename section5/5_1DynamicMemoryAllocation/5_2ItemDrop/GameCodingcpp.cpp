@@ -29,6 +29,14 @@ int main()
 		Item* item = DropItem();
 		item->PrintInfo();
 
+		ItemType itemType = item->GetItemType();
+		if (itemType == IT_Weapon)
+		{
+			Weapon* weapon = static_cast<Weapon*>(item);
+		}
+
+		Weapon* weapon = dynamic_cast<Weapon*>(item);
+
 		if (Inventory::GetInstance()->AddItem(item))
 		{
 			cout << "Added Item to Inven" << endl;
