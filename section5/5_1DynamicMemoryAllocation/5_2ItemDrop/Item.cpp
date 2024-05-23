@@ -44,6 +44,7 @@ Item::~Item()
 {
 
 }
+
 void Item::PrintInfo()
 {
 	switch (_rarity)
