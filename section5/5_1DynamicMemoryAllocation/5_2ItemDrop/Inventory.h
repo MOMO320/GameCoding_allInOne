@@ -1,10 +1,12 @@
 #pragma once
-#include "Item.h"
 
 enum
 {
 	MAX_SLOT = 100
 };
+
+
+class Item;
 
 class Inventory
 {

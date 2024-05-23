@@ -1,4 +1,5 @@
 #include "Inventory.h"
+#include "Item.h"
 
 Inventory* Inventory::s_instance = nullptr;
 
@@ -16,6 +17,8 @@ bool Inventory::AddItem(Item* item)
 {
 	if (item == nullptr)
 		return false;
+
+	item->GetItemType();
 
 	int emptySlot = FindEmptySlot();
 	if (emptySlot < 0)
