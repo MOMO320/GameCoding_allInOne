@@ -33,6 +33,7 @@ int main()
 		if (itemType == IT_Weapon)
 		{
 			Weapon* weapon = static_cast<Weapon*>(item);
+			weapon->PrintInfo();
 		}
 
 		Weapon* weapon = dynamic_cast<Weapon*>(item);
