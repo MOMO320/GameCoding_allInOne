@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MemoryCorruptionTest.cpp" />
+    <ClCompile Include="memoryLeakTest.cpp" />
     <ClCompile Include="UpCasting_TestCode.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>

@@ -33,7 +33,7 @@ public:
 	}
 };
 
-int main2()
+int main1()
 {
 	Derived derived;
 	Derived* pDerived = &derived;

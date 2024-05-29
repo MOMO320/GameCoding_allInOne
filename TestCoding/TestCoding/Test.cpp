@@ -52,7 +52,7 @@ public :
 	void PrintCatOnly() { cout << "虐具克!!!!! 虐具克!!!" << endl; }
 };
 
-int main()
+int main2()
 {
 	Animal * animal = new Animal;
 	
@@ -111,4 +111,6 @@ int main()
 	}
 	// ---------------------- 促款 某胶泼 ---------------------------
 	cout << " ----------------------------------------" << endl;
+
+	return 0;
 }
