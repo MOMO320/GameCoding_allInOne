@@ -23,12 +23,18 @@
     <ClCompile Include="Array.cpp">
       <Filter>DataStructure</Filter>
     </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
       <Filter>DataStructure</Filter>
     </ClInclude>
     <ClInclude Include="Array.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
       <Filter>DataStructure</Filter>
     </ClInclude>
   </ItemGroup>

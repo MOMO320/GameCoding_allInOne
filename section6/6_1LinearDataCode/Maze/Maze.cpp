@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "List.h"
 #include "Array.h"
+#include "Vector.h"
 using namespace std;
 
 
@@ -31,5 +32,15 @@ int main()
 
 	arr[1] = 2;
 
-	int b = arr[10000];
+//	int b = arr[10000];
+
+
+	Vector v;
+
+	v.push_back(1);
+	v.push_back(2);
+	v.push_back(3);
+	v.pop_back();
+
+	int a = v[1];
 }
