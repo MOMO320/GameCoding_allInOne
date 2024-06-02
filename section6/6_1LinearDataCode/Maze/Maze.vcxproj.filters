@@ -12,9 +12,12 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Board">
+      <UniqueIdentifier>{6e43e2f7-0861-49f2-9f91-3601097d962e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Maze.cpp">
+    <ClCompile Include="testCode.cpp">
       <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="List.cpp">
@@ -26,6 +29,21 @@
     <ClCompile Include="Vector.cpp">
       <Filter>DataStructure</Filter>
     </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
@@ -36,6 +54,21 @@
     </ClInclude>
     <ClInclude Include="Vector.h">
       <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleHelper.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

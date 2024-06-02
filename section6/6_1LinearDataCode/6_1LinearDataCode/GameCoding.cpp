@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "vector"
 using namespace std;
 
 // 선형 자료구조
@@ -53,3 +53,15 @@ using namespace std;
 */
 
 // 설명창
+
+int main()
+{
+	std::vector<int> v;
+	
+	v.push_back(1);
+	v.push_back(2);
+	v.push_back(3);
+	v.pop_back();
+
+
+}

@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6a9b8b95-c81a-4bb0-a76a-635d11a94a2b}</ProjectGuid>
-    <RootNamespace>My61LinearData</RootNamespace>
+    <ProjectGuid>{6a74eb94-6b91-4eac-882a-c93f0c1ae282}</ProjectGuid>
+    <RootNamespace>My64TimeComplexityAnalysis</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>TestCoding</ProjectName>
+    <ProjectName>6_4Big-O</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,8 +129,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="gameCoding.cpp" />
-    <ClCompile Include="소스.cpp" />
-    <ClCompile Include="소스1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

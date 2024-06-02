@@ -1,46 +1,22 @@
-ï»¿#include <iostream>
-#include "List.h"
-#include "Array.h"
 #include "Vector.h"
-using namespace std;
+#include "pch.h"
+#include "Board.h"
+#include "Player.h"
 
+Board board;
+Player player;
 
 int main()
 {
-	List<int> Li;
+	::srand(static_cast<uint32>(time(nullptr)));
 
-	Li.AddAtaTail(1);
+	while (true)
+	{
+		// ÀÔ·Â
 
-	Node<int>* node = Li.AddAtaTail(2);
-	Li.AddAtaTail(3);
-	Li.AddAtaTail(4);
-	Li.AddAtaTail(5);
+		// ·ÎÁ÷
 
-	Li.Print();
-
-	// íŠ¹ì • ìœ„ì¹˜ ì•Œê³  ìˆì„ë•Œ ë¹ ë¥´ë‹¤.
-	Li.Remove(node);
-
-	Li.Print();
-
-
-	Array arr(100);
-	arr.push_back(1);
-	arr.push_back(2);
-	arr.push_back(3);
-	arr.push_back(4);
-
-	arr[1] = 2;
-
-//	int b = arr[10000];
-
-
-	Vector v;
-
-	v.push_back(1);
-	v.push_back(2);
-	v.push_back(3);
-	v.pop_back();
-
-	int a = v[1];
+		// ·»´õ¸µ
+		board.Render();
+	}
 }
