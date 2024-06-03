@@ -44,6 +44,12 @@
     <ClCompile Include="Player.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
@@ -69,6 +75,12 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>DataStructure</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

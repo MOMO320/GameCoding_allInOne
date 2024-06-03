@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d0e05890-a2ae-48a7-9d92-c30f641641f6}</ProjectGuid>
-    <RootNamespace>Maze</RootNamespace>
+    <ProjectGuid>{8cf231e3-653c-4ff0-b044-80b5277a2a54}</ProjectGuid>
+    <RootNamespace>My68StackQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>6_2~3Maze</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -105,8 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,31 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Array.cpp" />
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="ConsoleHelper.cpp" />
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="Maze.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Queue.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="testCode.cpp" />
-    <ClCompile Include="Vector.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Array.h" />
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="ConsoleHelper.h" />
-    <ClInclude Include="List.h" />
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Queue.h" />
-    <ClInclude Include="Stack.h" />
-    <ClInclude Include="Types.h" />
-    <ClInclude Include="Vector.h" />
+    <ClCompile Include="GameCoding.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

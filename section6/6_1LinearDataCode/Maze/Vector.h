@@ -47,6 +47,13 @@ public:
 		return _buffer[_size - 1];
 	}
 
+	void resize(int size)
+	{
+		// TODO
+		reserve(size);
+		_size = size;
+	}
+
 	void clear()
 	{
 		//TODO
