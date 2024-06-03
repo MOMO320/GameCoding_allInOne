@@ -68,7 +68,7 @@
       <Filter>Board</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
