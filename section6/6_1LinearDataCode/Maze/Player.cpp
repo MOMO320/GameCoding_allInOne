@@ -94,11 +94,11 @@ void Player::CalculatePath()
 	//_dir = (_dir + 1) % DIR_COUNT;
 
 	// 목적지 찾을 때까지 찾으라(숙제!!!)
-	Pos next;
-	int32 count = 3;
 	bool isDown = false;
+
 	while (pos != dest)
 	{
+
 		// 처음에는 오른쪽 방향으로 갔다가
 		// 못가면 아래 방향으로 가고
 		// 또 못가게 되면 그땐 방향을 오른쪽 90도 틀은 후 갈 수 있는지 확인
